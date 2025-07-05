@@ -86,3 +86,37 @@ O objetivo da aplicação é **conectar doadores e instituições de caridade**,
 │   └── services/
 │       └── services.js
 └── ...
+
+
+📚 Sobre o Projeto
+Este sistema foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) na faculdade de Análise e Desenvolvimento de Sistemas, com o propósito de aplicar os conhecimentos adquiridos durante a graduação em:
+
+- Programação Web (Frontend e Backend)
+
+- APIs RESTful
+
+- Autenticação segura
+
+- Arquitetura MVC
+
+- Integração Front + Back
+
+- Melhoria de qualidade de vida social
+
+
+✅ Para rodar o projeto
+### Backend Laravel
+```bash
+  cd api-laravel-marmitas
+  composer install
+  cp .env.example .env
+  php artisan key:generate
+  php artisan migrate
+  php artisan serve
+
+### Frontend Vue
+```bash
+  cd frontend-vue-marmitas
+  npm install
+  npm run dev
+
